@@ -12,8 +12,8 @@ public class JsonConverter implements Converter {
 			.append("\t\"age\": \"").append(emp.getAge()).append("\",\n")
 			.append("\t\"salary\": \"").append(emp.getSalary()).append("\"\n")
 		.append("}");
-		
 		return builder.toString();
+
 	}
 
 }

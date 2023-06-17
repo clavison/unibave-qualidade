@@ -33,8 +33,8 @@ public class Client {
 		
 		System.out.println("------------");
 		
-		String dir = System.getProperty("user.dir");
+		/*String dir = System.getProperty("user.dir");
 		FileSystemItem fromDisk = createCompositeFromFile(new File(dir + File.separator + "src"));
-		fromDisk.print(">");
+		fromDisk.print(">");*/
 	}
 }
