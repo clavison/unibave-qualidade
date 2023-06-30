@@ -10,7 +10,7 @@ import br.com.unibave.mediator.translate.model.User;
 public class Client {
 
 	public static void main(String[] args) {
-		 //Mediator chatRoom = new ChatMediator();
+		//Mediator chatRoom = new ChatMediator();
 		Mediator chatRoom = new TranslatorMediator();
 		
 		User alan = new EnglishUser("Alan", chatRoom);

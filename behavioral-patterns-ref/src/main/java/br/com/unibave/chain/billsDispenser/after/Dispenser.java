@@ -5,11 +5,11 @@ public class Dispenser {
 	
 	public Dispenser() {
 		chain = new Bill(100, 
-						new Bill(50, 
+
 							new Bill(25, 
 								new Bill(10, 
 									new Bill(5, 
-										new Bill(1, null))))));
+										new Bill(1, null)))));
 	}
 	
 	public Dispenser(Bill... bills) {
